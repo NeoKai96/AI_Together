@@ -1,0 +1,160 @@
+
+
+```python
+name = "ada loveplace"
+print(name.title()) # .title()以大写显示每个单词的首字母
+
+```
+
+    Ada Loveplace
+    
+
+
+```python
+name = "ada loveplace"
+print(name.upper()) #修改字符串大小写
+print(name.lower())
+```
+
+    ADA LOVEPLACE
+    ada loveplace
+    
+
+
+```python
+# 合并（拼接）字符串
+
+first_name = "ada"
+last_name = "loveplace"
+full_name = first_name + " " + last_name  #中间的双引号是为了引入空格
+
+print(full_name)
+```
+
+    ada loveplace
+    
+
+
+```python
+first_name = "ada"
+last_name = "loveplace"
+full_name = first_name + " " + last_name
+
+print("Hello, " + full_name.title() + "!")
+```
+
+    Hello, Ada Loveplace!
+    
+
+
+```python
+# 不使用制表符 
+print("Python")
+
+#使用制表符 \t
+print("\tpython")
+```
+
+    Python
+    	python
+    
+
+
+```python
+# 使用换行字符 \n
+print("Languages:\nPython\nC\nJavaScript")
+```
+
+    Languages:
+    Python
+    C
+    JavaScript
+    
+
+
+```python
+# 删除空白，使用 .strip()，删除字符串开头结尾的空格
+
+language = 'python ' #使用单引号和双引号表示字符串没区别
+language
+
+
+
+
+
+```
+
+
+
+
+    'python '
+
+
+
+
+```python
+language = 'Python '
+language.rstrip() #.rstrip删除后部空格
+```
+
+
+
+
+    'Python'
+
+
+
+
+```python
+language = ' python'
+language.lstrip() #删除前部空格
+
+```
+
+
+
+
+    'python'
+
+
+
+
+```python
+language = ' python '
+language.strip()  #删除两端空格
+```
+
+
+
+
+    'python'
+
+
+
+
+```python
+if name == 'Alice':
+    print ('Hi, Alice.')
+elif age < 12:
+    print ('You are not Alice, kiddo')
+elif age > 2000:
+    print ('You are an immortal vampire')
+elif age >100:
+    print('You are not Alice, grannie')
+```
+
+
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    <ipython-input-2-8a8067bc95d9> in <module>
+    ----> 1 if name == 'Alice':
+          2     print ('Hi, Alice.')
+          3 elif age < 12:
+          4     print ('You are not Alice, kiddo')
+          5 elif age > 2000:
+    
+
+    NameError: name 'name' is not defined
+
